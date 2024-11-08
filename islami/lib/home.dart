@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:islami/screens/radioscreen.dart';
+import 'package:islami/screens/taspih_screen.dart';
 import 'package:islami/seticon.dart';
-import 'package:islami/taspih_screen.dart';
+
 
 // ignore: must_be_immutable
 class HomeScreen extends StatefulWidget {
@@ -13,9 +15,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   List<Widget> screens = [
     
-    Container(
-      color: const Color.fromARGB(255, 27, 22, 7),
-    ),
+    const RadioScreen(),
     const TaspihScreen(),
     Container(
       color: const Color.fromARGB(255, 75, 237, 5),
