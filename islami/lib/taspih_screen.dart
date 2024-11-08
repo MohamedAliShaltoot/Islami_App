@@ -24,17 +24,17 @@ class TaspihScreen extends StatelessWidget {
                   width: widthScreen,
                 ),
                 ),
-                  Positioned(left: 120,top: 210,child:  Image.asset(
+                  Positioned(left: 120,top: 170,child:  Image.asset(
                   "images/body of seb7a.png",width: 200,height: 200,
                  
                 ),
                 ),
-              Positioned(left: 150,top: 80,child:  Image.asset(
+              Positioned(left: 150,top: 40,child:  Image.asset(
                   "images/head of seb7a.png",width: 200,height: 200,
                  
                 ),
                 ),
-                  const Positioned(left: 120,top: 450,child:  Text("عدد التسبيحات ",
+                  const Positioned(left: 120,top: 430,child:  Text("عدد التسبيحات ",
                       style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.bold,
@@ -48,19 +48,22 @@ class TaspihScreen extends StatelessWidget {
                   Container(
                     
                     decoration: const BoxDecoration(
-                      color: Color.fromARGB(255, 68, 110, 163),
+                      color: Color(0xff5F8CB7),
                       borderRadius: BorderRadius.all(Radius.circular(22)),
                     ),
                     width: 69,
                     height: 80,
                     
-                    child: const Text("30",
-                    textAlign: TextAlign.center,
-                      style: TextStyle(
-                                color: Colors.black,
-                                fontWeight: FontWeight.bold,
-                                fontFamily: "ElMessiri-Bold",
-                                fontSize: 30),),
+                    child: const Padding(
+                      padding: EdgeInsets.all(17.0),
+                      child: Text("30",
+                      textAlign: TextAlign.center,
+                        style: TextStyle(
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: "ElMessiri-Bold",
+                                  fontSize: 30),),
+                    ),
                   ),
                   const SizedBox(height:20,),
                   
