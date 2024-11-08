@@ -66,6 +66,7 @@ class TaspihScreen extends StatelessWidget {
                   
                      InkWell(
                       onTap: () {
+                        // for later with provider processing using Selector or Consumer
                         
                       },
                        child: Image.asset(
