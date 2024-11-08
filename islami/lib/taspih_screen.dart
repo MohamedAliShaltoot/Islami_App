@@ -20,7 +20,7 @@ class TaspihScreen extends StatelessWidget {
                 Positioned(child:  Image.asset(
                   fit: BoxFit.fill,
                   "images/bgImage.png",
-                  height: heightScreen,
+                  height: heightScreen-172,
                   width: widthScreen,
                 ),
                 ),
